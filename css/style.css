@@ -59,30 +59,34 @@ nav a {
   border-color: lightgray;
   box-shadow: 0 0 6px lightgray;
 }
-.submit {
+.submit, .lucky {
   color: rgb(94, 94, 94);
-  float: left;
   height: 35px;
-  margin-left: 558px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-top: 15px;
   margin-bottom: 30px;
   border: none;
   background: rgb(240, 240, 240);
+  font-size: 15px;
+}
+.submit {
+  float: left;
+  
+  margin-left: 527px;
+ 
 }
 .lucky {
-  color: rgb(94, 94, 94);
-  height: 35px;
   float: right;
-  margin-right: 558px;
-  margin-top: 15px;
-  margin-bottom: 30px;
-  border: none;
-  background: rgb(240, 240, 240);
+  margin-right: 527px;
 }
 .submit:hover{
   border: 1px solid lightgray;
+  color: black;
 }
-.luck:hover{
+.lucky:hover{
+  color: black;
+  cursor: pointer;
   border: 1px solid lightgray;
 }
 .voice img {
