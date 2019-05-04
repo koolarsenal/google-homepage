@@ -1,0 +1,137 @@
+body {
+  min-width: 1200px;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+nav ul {
+  float: right;
+  margin-top: 20px;
+}
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+nav a {
+  color: black;
+}
+.space {
+  background: white;
+  width: auto;
+  height: 173px;
+}
+.space1 {
+  background: white;
+  width: 288px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.space1 img {
+  margin-bottom: 52px;
+  padding: 0;
+  height: 120px;
+}
+
+.searchbar {
+  display: block;
+  text-align: center;
+}
+
+.searchbox {
+  margin: 15px auto;
+  width: 600px;
+  height: 40px;
+  display: block;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+}
+.searchbox:hover {
+  outline: none;
+  border-color: lightgray;
+  box-shadow: 0 0 6px lightgray;
+}
+.submit {
+  color: rgb(94, 94, 94);
+  float: left;
+  height: 35px;
+  margin-left: 558px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border: none;
+  background: rgb(240, 240, 240);
+}
+.lucky {
+  color: rgb(94, 94, 94);
+  height: 35px;
+  float: right;
+  margin-right: 558px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border: none;
+  background: rgb(240, 240, 240);
+}
+.submit:hover{
+  border: 1px solid lightgray;
+}
+.luck:hover{
+  border: 1px solid lightgray;
+}
+.voice img {
+  position: absolute;
+  bottom: 239px;
+  right: 400px;
+  height: 20px;
+}
+.more {
+  text-align: center;
+}
+.more p {
+  margin-top: 100px;
+  margin-left: 2px;
+  display: inline;
+}
+.vietnam {
+  background: rgb(240, 240, 240);
+  margin: 25px 0 0 0;
+  padding: 0 0 0 27px;
+  height: 41px;
+  border: 1px solid lightgray;
+}
+.vietnam span {
+  color: rgb(94, 94, 94);
+  position: relative;
+  top: 12.5px;
+}
+footer {
+  background: rgb(240, 240, 240);
+  height: 41px;
+  border: 1px solid lightgray;
+}
+.footer1 {
+  float: left;
+}
+.footer2 {
+  float: right;
+}
+
+.footer1 a {
+  color: rgb(94, 94, 94);
+  position: relative;
+  top: 11px;
+  margin-left: 27px;
+}
+.footer2 a {
+  color: rgb(94, 94, 94);
+  position: relative;
+  top: 11px;
+  margin-right: 27px;
+}
